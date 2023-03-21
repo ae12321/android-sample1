@@ -1,0 +1,11 @@
+<androidx.preference.PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreferenceCompat
+        android:key="select_prod_env"
+        android:title="環境切り替え"
+        android:summaryOn="★本番環境に接続します★"
+        android:summaryOff="検証環境に接続します"
+        android:defaultValue="false"/>
+
+</androidx.preference.PreferenceScreen>
